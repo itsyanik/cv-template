@@ -1,0 +1,15 @@
+{
+  "experiences": [
+    {
+      "company": "Cool Company .Inc",
+      "duration": "MM/YYYY - MM/YYYY",
+      "location": "Chinatown",
+      "jobTitle": "Jr. Fronent Developer",
+      "jobCharacteristcs": [
+        "Awesome site creation;",
+        "Responsive webpages;",
+        "Adding interactivity to pages;",
+        "Version control"]
+    }
+  ]
+}
