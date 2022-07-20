@@ -1,0 +1,10 @@
+@import './../../../_scss/variables/variables';
+
+.info {
+  display: flex;
+  font-size: $fs-small;
+
+  .type {
+    font-weight: $bold-weight;
+  }
+}

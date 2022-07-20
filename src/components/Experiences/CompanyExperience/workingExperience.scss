@@ -1,0 +1,32 @@
+@import './../../../_scss/variables/variables';
+
+.experience {
+  font-size: $fs-small;
+
+  &-header {
+    display: flex;
+    justify-content: space-between;
+
+    .company {
+      font-weight: $bold-weight;
+    }
+
+    .about {
+      .duration {
+        font-weight: $bold-weight;
+      }
+    }
+  }
+
+  .activities {
+    margin-left: $spacing-xl;
+
+    .activity {
+      padding-top: $spacing-smallest;
+
+      &:last-of-type {
+        padding-bottom: $spacing-smallest;
+      }
+    }
+  }
+}

@@ -1,0 +1,62 @@
+@import './../../_scss/variables/variables';
+
+.education {
+  .graduation, 
+  .extra-courses, 
+  .languages {
+    h3 {
+      font-weight: $medium-weight;
+      border-bottom: 1px solid $grey;
+      margin-top: $spacing-medium;
+      margin-bottom: $spacing-small;
+      padding-bottom: $spacing-tiny;
+    }
+  }
+
+  .graduation {
+    .experience {
+      .company {
+        font-weight: $bold-weight;
+      }
+    }
+  }
+
+  .extra-courses {
+    ul {
+      font-size: $fs-small;
+      margin-left: $spacing-medium-2;
+      list-style: none;
+  
+      li {
+        display: flex;
+        justify-content: space-between;
+        padding-top: $spacing-smallest;
+  
+        &:last-of-type {
+          padding-bottom: $spacing-smallest;
+        }
+
+        .about-teacher {
+          .course-title {
+            font-style: italic;
+          }
+  
+          .course-teacher {
+            font-weight: $bold-weight;
+          }
+        }
+      }
+    }
+  }
+
+  .languages {
+    ul {
+      font-size: $fs-small;
+      margin-left: $spacing-xl;
+  
+      li {
+        padding-top: $spacing-smallest;
+      }
+    }
+  }
+}

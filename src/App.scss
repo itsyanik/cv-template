@@ -1,0 +1,37 @@
+@import './_scss/variables/variables';
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  margin: $spacing-small;
+}
+
+body {
+  /*
+   * A4 Sheet Size
+  */
+  height: 29.7cm;
+  width: 21cm;
+  background-color: $white;
+  box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+  margin: {
+   top: 0;
+   left: auto;
+   right: auto;
+   bottom: $spacing-small; 
+  };
+  padding: $spacing-medium $spacing-large;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h2, h3 {
+  font-weight: $light-weight;
+}
